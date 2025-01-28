@@ -1,0 +1,68 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="VpnWX1LoobBZNTjvcjSd">
+    <mxGraphModel dx="1434" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.laptop;" vertex="1" parent="1">
+          <mxGeometry x="720" y="295" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" vertex="1" parent="1">
+          <mxGeometry x="380" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-4" value="OpenVPN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ePbjs7NC-Rzfgnz03bim-2" target="ePbjs7NC-Rzfgnz03bim-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-6" value="ipsec&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ePbjs7NC-Rzfgnz03bim-5">
+          <mxGeometry x="0.3462" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ePbjs7NC-Rzfgnz03bim-7" target="ePbjs7NC-Rzfgnz03bim-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-7" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Firewall.svg;" vertex="1" parent="1">
+          <mxGeometry x="400" y="235" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-8" value="access- execluded&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-10" value="SSH Key" style="shape=rect;fillColor=#FA4D56;aspect=fixed;resizable=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="746" y="355" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-11" value="" style="fillColor=#ffffff;strokeColor=none;dashed=0;outlineConnect=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;part=1;movable=0;resizable=0;rotatable=0;shape=mxgraph.ibm_cloud.password" vertex="1" parent="ePbjs7NC-Rzfgnz03bim-10">
+          <mxGeometry width="24" height="24" relative="1" as="geometry">
+            <mxPoint x="12" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;global access to lab&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;architecture&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="68.35" y="50" width="677.65" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-15" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" vertex="1" parent="1">
+          <mxGeometry x="380" y="650" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-16" value="OpenVPN client file" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-19" value="web-pt&lt;br&gt;reverse shell&amp;nbsp;&lt;br&gt;privilage escelation&lt;br&gt;&lt;br&gt;linux 24.3 os" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="720" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-22" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#EF8F21;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.linux;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="680" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-23" value="eth 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="430" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ePbjs7NC-Rzfgnz03bim-15" target="ePbjs7NC-Rzfgnz03bim-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePbjs7NC-Rzfgnz03bim-25" value="eth 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="550" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
